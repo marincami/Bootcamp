@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 1400px;
+    height: 600px;
+    margin: 10px;
+    background-image: url("http://xinature.com/wp-content/uploads/2016/08/flowers-sunrise-purple-lavesnder-nature-lavender-sunset-lavendel-clouds-sky-field-flower-wallpaper-for-desktop-1920x1080.jpg");
+    flex-direction: column;
+}
+
+.Content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    margin-top: 44px;
+    margin-left: 20px;
+}
+
+.Name {
+    margin: 50px;
+}
+
+.Rectangle {
+    margin: 2px;
+    width: 300px; 
+    height: 150px;
+}
+
+.Square {
+    margin: 2px;
+    width: 150px;
+    height: 150px;
+}
+
+.Left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 780px;
+    height: 200px;
+} 
+
+.Right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 200px;
+} 
+
+p {
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.TopRight {
+    display: flex;
+    width: 320px;
+}
+
+.TopLeft {
+    display: flex;
+    width: 780px;
+    justify-content: flex-end;
+}
+
+.TopRight p:first-of-type {
+    font-size: 50px;
+}
+
+.TopLeft p:first-of-type {
+    font-size: 30px;
+    margin: 0;
+}
+
+.TopLeft p:last-of-type {
+    font-size: 15px;
+    margin: 0;
+}
+
+.Rectangle:first-of-type {
+    background-color: #00bcd4;
+}
+
+.Rectangle:nth-of-type(2){
+    background-color: #e76022;
+}
+
+.Rectangle:nth-of-type(3) {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxkKU5nAwXRBXkyQIUL4R_CN9hR1jpwmf4S7MUcTrw92-nWhb");
+    background-size: 381px 186px;
+    background-position-x: -43px;
+    background-position-y: -12px;
+    background-repeat: no-repeat;
+    order: 1;
+}
+
+.Left .Square:nth-of-type(4) {
+    background-color: #da312e;
+}
+
+.Left .Square:nth-of-type(5) {
+    background-color: #61b812;
+}
+
+.Left .Square:nth-of-type(6) {
+    background-color: #f1d445;
+}
+
+.Left .Square:last-of-type {
+    background-color: #da312e;
+}
+
+.Right .Square:first-of-type {
+    background-color: #00bcd4;
+}
+
+.Right .Square:nth-child(2) {
+    background-color: #61b812;
+}
+
+.Right .Square:nth-of-type(3) {
+    background-color: #f1d445;
+}
+
+.Right .Square:last-of-type {
+    background-color: #da312e;
+}
+
+p:nth-of-type(1) {
+    font-size: 40px;
+}
+
+p:nth-of-type(2) {
+    font-size: 30px;
+}
+
+p:nth-of-type(3) {
+    font-size: px;
+}
+
+

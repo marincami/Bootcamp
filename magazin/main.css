@@ -1,0 +1,318 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+img {
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1 {
+    margin: 0;
+}
+
+.lower { 
+    font-family: 'Rozha One', serif;
+    position: relative;
+    top: -93px;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 625px;
+    overflow: hidden;
+    display: block;
+    background-image: url("https://media.meltystyle.fr/article-3297258-ajust_930-f4990049/jaden-smith-pour-l-edition-ss16-de-gq-style.jpg");
+    background-size: cover;
+    background-position-x: -5px;
+    background-repeat: no-repeat;   
+}
+
+h1 .logo {  
+   font-family: 'Raleway', sans-serif; 
+   position: relative;
+   color: white;
+   left: -6px;
+   font-size: 170px;
+   text-shadow: -2px 0 #190f33, 0 2px #190f33, 2px 0 #190f33, 0 -2px #190f33;
+   line-height: 110px;
+   letter-spacing: -18px;
+}
+
+h1 .pre { 
+   font-family: 'Raleway', sans-serif; 
+   color: #190f33;
+   position: absolute;
+   text-transform: uppercase;
+   font-size: 10px;
+   left: 80px;
+   top: 55px;
+   z-index: 10;
+}
+
+h1 .pre::before {
+   content: "";
+   position: absolute;
+   height: 37px;
+   width: 31px;
+   left: 31px;
+   top: -4px;
+   border-radius: 4px 0px 0px 40px;
+   background-color: white;
+   z-index: -1;
+}
+
+h1 .title { 
+   font-family: 'Sumana', serif; 
+   color: #190f33;
+   line-height:  100px;
+   font-size: 95px;
+   text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+   position: relative;
+   left: 14px;
+}
+
+h2.subtitle { 
+   font-family: 'Sumana', serif;
+   font-style: italic;
+   color: #190f33;
+   text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+   font-size: 12px;
+   position: relative;
+   left: 250px;
+   bottom: 115px;
+   font-weight: 100;
+}
+
+.up-left {
+    width: 56%;
+    padding: 0 15px 100px 30px;
+    display: inline-block;
+    float:left;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.up-right {
+    width: 44%;
+    padding: 15px;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+}
+
+.low-left {
+    width: 56%;
+    margin: 30px;
+}
+
+.low-right {
+    width: 47%;
+    float: right;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: -250px;
+}
+
+.up-left h2{
+    color: #190f33;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 24px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.up-left h2 span {
+    color: #190f33;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.up-left p.uk {
+    color:#190f33;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 7px;
+    margin: 0;
+}
+
+.up-left p.gq { 
+   font-family: 'Raleway', sans-serif;
+   color: #190f33;
+   text-transform: uppercase;
+   font-size: 6px;
+   margin-top: 12px;
+   margin-left: 4px;
+}
+
+.up-left h4 {
+    color: white;
+    font-size: 20px;
+    line-height: 1;
+
+    margin-top: 16px;
+}
+
+h3 {
+    color: white;
+    font-size: 49px;
+    word-break: break-normal;
+    line-height: 1;
+    margin-top: 25px;
+    font-weight: 100;
+
+}
+
+.low-left .block-text.white span:first-child{
+    display: inline-block;
+    margin-top: 0;
+}
+
+.low-left .block-text.white span:first-child {
+    width: 38px;
+    text-align: center;
+}
+
+.low-left .block-text.white span:nth-child(2)  {
+    width: 60px;
+    text-align: center;
+}
+
+.low-left .block-text.white span:nth-child(3)  {
+    width: 30px;
+    text-align: center;
+}
+
+.low-left .block-text.white span:nth-child(4)  {
+    width: 90px;
+    text-align: center;
+}
+
+.low-left .block-text.white span:last-child  {
+    width: 48px;
+    text-align: center;
+}
+
+.lower .up-left .block-text.black {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.lower .up-left .block-text.black span {
+    display: block;
+    margin-bottom: 2px;
+    background-color:#190f33;
+    color: white;
+    text-align: center;
+}
+
+.lower .up-left .block-text.black span:first-child {
+    width: 42px;
+    display: inline-block;
+    margin-top: 16px;
+    font-weight: 100;
+}
+
+.lower .up-left .block-text.black span:nth-child(2) {
+    width: 55px;
+    margin-bottom: 2px;
+    font-weight: 100;
+}
+
+.lower .up-left .block-text.black span:nth-child(3) {
+    width: 30px;
+    margin-bottom: 2px;
+    font-weight: 100;
+}
+
+.lower .up-left .block-text.black span:nth-child(4) {
+    width: 45px;
+    margin-bottom: 2px;
+    font-weight: 100;
+}
+
+.lower .up-left .block-text.black span:nth-child(5) {
+    margin-bottom: 2px;
+    width: 70px;
+    font-weight: 100;
+}
+
+.lower .up-left .block-text.black span:last-child {
+    width: 42px;
+    font-size: 10px;
+    height: 22px;
+}
+
+.low-left .block-text span {
+    display: block;
+    color: #190f33;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1;
+    background-color: white;
+    margin-bottom: 2px;
+}
+
+.low-right h4.block-text span {
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    font-weight: 100;
+    display: inline-block;
+    box-sizing: border-box;
+    width: auto;
+}
+
+.low-right h4.block-text:nth-of-type(1) span:first-of-type {
+    transform: rotate(-2deg);
+    color: #190f33;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+} 
+
+.low-right h4.block-text:nth-of-type(1) span:last-of-type {
+    line-height: 1;
+    color: #190f33;
+    background-color: white;
+    transform: rotate(4deg);
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.low-right h4.block-text:nth-of-type(2) {
+    transform: rotate(-17deg);
+    color: white;
+    background-color: #190f33;
+    text-align: center;
+    margin-left: -110px;
+    margin-top: 25px;
+    width: 200px;
+}
+
+.low-right h4.block-text:nth-of-type(3) {
+    transform: rotate(6deg);
+    color: #190f33;
+    background-color: white;
+    width: 130px;
+    margin-left: 70px;
+    margin-top: -30px; 
+}
+
+.low-right h4.block-text:last-of-type {
+    color: white;
+    width: 270px;
+    margin-left: -70px;
+    margin-right: -70px;
+    background-color: #190f33;
+    text-align: center;
+    transform: rotate(-6deg);
+    margin-top: 30px;
+}
