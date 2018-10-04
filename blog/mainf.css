@@ -1,0 +1,285 @@
+nav {
+    display: flex;
+    width: 1200px;
+    justify-content: flex-end;
+    height: 103px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.Panel {
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.Panel p {
+    font-family: 'Lato';
+    color: gray;
+    display: flex;
+    align-items: center;
+} 
+
+.Panel img {
+    background-size: 100%;
+    width: 37px;
+    height: 33px;
+    margin-top: 30px;
+}
+
+ol div {
+    list-style: none;
+}
+
+article:first-of-type {
+    background-color: #f2f2f2;
+    height: 304px;
+    margin: 23px 0;
+    padding: 0 116px;
+}
+
+.Imagenes {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+}
+
+.Cuadro {
+    margin: 20px 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cuadro-img {
+    width: 325px;
+    height: 216.67px;
+}
+
+.Cuadro:nth-child(2) .Cuadro-img {
+    width: 415px;
+    height: 221.03px;
+}
+
+.Cuadro:nth-child(3) .Cuadro-img {
+    width: 339.08px;
+    height: 226px;
+}
+
+.Cuadro-borde {
+    Width: 136px;
+    Height: 96px;
+    border: 1px solid #CFCFCF;
+    background-color: white; 
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.Cuadro-text {
+    font-family: 'Lato';
+    color: #47525E;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+}
+
+.Cuadro-textUnderline {
+    width: 60px;
+    height: 2px;
+    display: flex;
+    background-color: black;
+    margin: 30px 40px;
+} 
+
+.SidebarNavigation_Button {
+    display: flex;
+} 
+
+.PreviousButton.cursor-pointer {
+    width: 50px;
+    height: 180px;
+    margin-top: -30px;
+    backface-visibility: hidden;
+    transform-origin: left center;
+    transform: rotateY(360deg);
+    transition: 1s;       
+}
+
+.NextButton.cursor-pointer {
+    width: 50px;
+    height: 180px;
+    margin-top: -30px;
+}
+
+.Left {
+    background-color: #f2f2f2;
+    margin-left: 130px;
+    margin-right: 38%;
+    margin-top: 50px;
+    Width: 815px;
+    Height: 716px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Blob {
+    width: 525px;
+    height: 393.75px;
+}
+
+.Left p {
+    font-family: 'Lato';
+    color: #47525E;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+.Left p:nth-of-type(1){
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 19px;
+    margin: 30px;
+}
+
+.Left p:nth-of-type(2) {
+    margin: 30px 130px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.Left p:nth-of-type(3) {
+    margin: -10px 122px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.Right {
+    padding: 0 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: -58%;
+    margin-top: -710px;
+}
+
+.Right p:nth-of-type(1) {
+    color: #47525E;
+    width: 90px;
+    font-family: 'Lato';
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Right p:nth-of-type(2) {
+    color: #47525E;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    Width: 214px;
+    Height: 88px;
+    text-align: left;
+}
+
+.Right p:nth-of-type(3) {
+    Width: 83px;
+    Height: 19px;
+    color: #47525E;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.Autor {
+    Width: 137px;
+    Height: 205.5px;   
+    margin-top: 20px; 
+}
+
+.Right-Underline {
+    background-color: black;
+    width: 100px;
+    height: 2px;
+}
+
+.Email {
+    font-family: 'Lato';
+    font-size: 15px;
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: left;
+    color: #8190A5;
+    padding-left: 10px;
+}
+
+.Text {
+    font-family: 'Lato';
+    font-size: 15px;
+    width: 180px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: left;
+    color: #8190A5;
+    padding: 10px;
+}
+
+.Submit {
+    background-color: #47525E;
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    font-family: 'Lato';
+    font-size: 15px;
+}
+
+footer {
+    background-color: #47525E;
+    height: 206px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Footer-Info {
+    justify-content: space-evenly;
+    align-items: center;
+    color: #F7F7F7;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 245px;
+    text-align: left;
+}
+
+
+
+
+
