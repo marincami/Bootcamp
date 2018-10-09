@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <div class="Container">
+        <div id="teclita60"></div>
+        <div id="teclita61">A</div>
+        <div id="teclita62">S</div>
+        <div id="teclita63">D</div>
+        <div id="teclita64">F</div>
+
+        <div id="teclita65">L</div>
+        <div id="teclita66">K</div>
+        <div id="teclita67">J</div>
+        <div id="teclita68">H</div>
+        <div id="teclita69">G</div>
+    </div>
+    
+    <audio id="audiecito65" src="./sounds/fizzle.wav" controls></audio>
+    <audio id="audiecito61" src="./sounds/hat.wav" controls></audio>
+    <audio id="audiecito62" src="./sounds/kick.wav"controls></audio>
+    <audio id="audiecito63" src="./sounds/snare.wav" controls></audio>
+    <audio id="audiecito64" src="./sounds/snarezz.wav"></audio>
+    <audio id="audiecito" src="./sounds/synth.wav"></audio>
+    <audio id="audiecito" src="./sounds/vox1.wav"></audio>
+    <audio id="audiecito" src="./sounds/vox2.wav"></audio>
+    <audio id="audiecito" src="./sounds/vox3.wav" controls></audio>
+    <audio id="audiecito" src="./sounds/wood.wav"></audio>
+
+
+    <script>
+    /*
+        console.log("Hola soy Cami");
+        var nombre = "Cami";
+        var numero = 2;
+        var nombre2 = nombre;
+        var varnodefinida;
+        console.log(nombre2);
+        var estoyMintiendo = false;
+        // string, number, boolean, undefined, NaN, null (PREGUNTA DE GLOBANT, TIPOS DE DATOS BASICOS)
+        // array (dice que son un objeto), object, function (DATOS COMPLEJOS)
+        console.log(varnodefinida);
+        console.log(typeof(1));
+        var edades = [1,2];
+        //console.log(typeof(edades));
+        var yo = {
+            //esto es un json
+            nombre: "Camila",
+            apellido: "Marin"
+        };
+        //console.log(typeof(yo));
+
+        var myFunction = function saludar(nombre) {
+            return "Hola " + nombre;
+        };
+        console.log(typeof(myFunction));
+
+        function saludar(nombre){
+            return "Hola " + nombre;
+        }
+        var miSaludo = saludar("Camila");
+        console.log(miSaludo);
+//cuando  se guarda una function  en la var ya solo se puede acceder atraves de la var
+        //    var miFuncioncita = function saludar(nombre) {
+    //        return "Hola" + nombre;
+        // }; //si esta asignado a una variable es mejor con ;
+        //PREGUNTA GLOBANT: 
+        var a = 10;
+        var b = a;
+        a = 20;
+        console.log(b); //MUESTRA 10
+        //...................
+        var j = {nombre: "sebas", apellido: "gomez"};
+        var k = j;
+        j.nombre = "Juan";
+        console.log(k); //MUESTRA sebas gomez
+        // las variables se reescriben cuando no son objetos 
+        //MUTABILIDAD:
+        //COHERSION: 
+
+        document.getElementById("estamosMelos").style.color= 'red';
+        document.getElementById("estamosMelos").style.backgroundColor= 'blue';
+        
+        var myEstamosMelos = document.querySelectorAll("div");
+        console.log((myEstamosMelos));
+
+        var myFunctionRHSAJ = function RHSAJ() {return 1;};
+
+        var p = myFunctionRHSAJ;
+        myFunctionRHSAJ = function test() {return 3;};
+        console.log(p);
+*/
+
+    var loquepasa = function mostrarTecla(corazon) {
+        console.log(corazon.key, corazon.keyCode);
+        var miAudiecito = document.
+                            querySelector('#audiecito' + corazon.keyCode);
+        if(miAudiecito !== null){
+            miAudiecito.currentTime = 0;
+            miAudiecito.play();
+        }
+    }
+
+    function mostrarLaTecla(corazon) {
+        console.log(corazon.key, corazon.keyCode);
+        var miAudiecito = document.
+            querySelector('#teclita' + corazon.keyCode);
+        miTeclita.style.backgroundColor = 'red';
+        setTimeout( function(){
+            miTeclita,style.backgroundColor = 'white';
+            miTeclita.classList.add('clase-liberada');
+        },200);
+    }
+    
+    document.addEventListener('keydown', loquepasa);
+
+    var mivariable = function saludar(nombre, cositas) {
+        return "Hola " + nombre + "las cositas son: " + cositas;
+    }
+    var otraFuncion = 1;
+    </script>    
+</body>
+</html>
