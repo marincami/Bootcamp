@@ -1,0 +1,42 @@
+.Fondo {
+    width: 100%;
+    height: 850px;
+    background-image: url("./fondo.jpg");
+    background-size: cover;
+}
+
+.Teclas {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 50%;
+    margin-left :25%;
+}
+
+.Tecla {    
+    width: 70px;
+    height: 70px;
+    border: 3px solid mediumpurple;
+    margin-top: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Tecla span:nth-of-type(1){
+    display: block;
+    font-size: 240%;
+    color: yellow;
+}
+
+.Tecla span:nth-of-type(2){
+    display: block;
+    font-size: 60%;
+    color: pink;
+}
+
+.clase-liberada {
+    background: transparent;
+}
+
+.clase-presionada {
+    background: #cdcdcd;
+}

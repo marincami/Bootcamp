@@ -9,60 +9,57 @@
 </head>
 
 <body>
-    <div class="Container">
-        <div id="teclita65">A</div>
-        <div id="teclita83">S</div>
-        <div id="teclita68">D</div>
-        <div id="teclita70">F</div>
+    <script src="main.js"></script>
 
-        <div id="teclita76">L</div>
-        <div id="teclita75">K</div>
-        <div id="teclita74">J</div>
-        <div id="teclita72">H</div>
-        <div id="teclita71">G</div>
-    </div>
-    
+    <div class="Fondo">
+        <div class="Teclas">
+            <div class="Tecla" id="tecla65">
+                <span>A</span>
+                <span>CLAP</span>
+            </div>
+            <div class="Tecla" id="tecla83">
+                <span>S</span>
+                <span>HIHAT</span>
+            </div>
+            <div class="Tecla" id="tecla68">
+                <span>D</span>
+                <span>KICK</span>
+            </div>
+            <div class="Tecla" id="tecla70">
+                <span>F</span>
+                <span>OPENHAT</span>
+            </div>
+            <div class="Tecla" id="tecla71">
+                <span>G</span>
+                <span>BOOM</span>
+            </div>
+            <div class="Tecla" id="tecla72">
+                <span>H</span>
+                <span>RIDE</span>
+            </div>
+            <div class="Tecla" id="tecla74">
+                <span>J</span>
+                <span>SNARE</span>
+            </div>
+            <div class="Tecla" id="tecla75">
+                <span>K</span>
+                <span>TOM</span>
+            </div>
+            <div class="Tecla" id="tecla76">
+                <span>L</span>
+                <span>TINK</span>
+            </div>
+        </div>
 
-    <audio id="audiecito65" src="./sounds/fizzle.wav" controls></audio>
-    <audio id="audiecito83" src="./sounds/hat.wav" controls></audio>
-    <audio id="audiecito68" src="./sounds/kick.wav"controls></audio>
-    <audio id="audiecito70" src="./sounds/snare.wav" controls></audio>
-    <audio id="audiecito76" src="./sounds/snarezz.wav" controls></audio>
-    <audio id="audiecito75" src="./sounds/synth.wav" controls></audio>
-    <audio id="audiecito74" src="./sounds/vox1.wav" controls></audio>
-    <audio id="audiecito72" src="./sounds/vox2.wav" controls></audio>
-    <audio id="audiecito71" src="./sounds/vox3.wav" controls></audio>
-    
-    
-    <script>
-
-    var loquepasa = function mostrarTecla(corazon) {
-        console.log(corazon.key, corazon.keyCode);
-        var miAudiecito = document.
-                            querySelector('#audiecito' + corazon.keyCode);
-        if(miAudiecito !== null){
-            miAudiecito.currentTime = 0;
-            miAudiecito.play();
-        }
-    }
-
-    function mostrarLaTecla(corazon) {
-        console.log(corazon.key, corazon.keyCode);
-        var miAudiecito = document.
-            querySelector('#teclita' + corazon.keyCode);
-        miTeclita.style.backgroundColor = 'red';
-        setTimeout( function(){
-            miTeclita,style.backgroundColor = 'white';
-            miTeclita.classList.add('clase-liberada');
-        },200);
-    }
-    
-    document.addEventListener('keydown', loquepasa);
-
-    var mivariable = function saludar(nombre, cositas) {
-        return "Hola " + nombre + "las cositas son: " + cositas;
-    }
-
-    </script>    
+        <audio id="audiecito65" src="./sounds/fizzle.wav" ></audio>
+        <audio id="audiecito83" src="./sounds/hat.wav" ></audio>
+        <audio id="audiecito68" src="./sounds/kick.wav"></audio>
+        <audio id="audiecito70" src="./sounds/snare.wav" ></audio>
+        <audio id="audiecito76" src="./sounds/snarezz.wav"></audio>
+        <audio id="audiecito75" src="./sounds/synth.wav" ></audio>
+        <audio id="audiecito74" src="./sounds/vox1.wav" ></audio>
+        <audio id="audiecito72" src="./sounds/vox2.wav" ></audio>
+        <audio id="audiecito71" src="./sounds/vox3.wav" ></audio>
+    </div> 
 </body>
 </html>
