@@ -1,0 +1,170 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+
+
+
+
+@media (min-width: 1000px){
+  .section {
+  padding: 20rem 0 10rem;
+  }
+}
+
+@media (min-width: 550px){
+  .hero {
+    padding: 220px 0;
+    height: 19rem;/**/
+  }
+}
+
+@media (min-width: 550px){
+  .container {
+    padding: 0;
+    /* width: 80%; */
+    margin: 0 270px;
+  }
+}
+
+@media (min-width: 550px){
+  .one-half.column {
+    width: 48%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 550px){
+  .one-half.column.phones {
+    width: 38%;
+    max-height: 615px;
+    margin-left: 50px;
+  }
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.phones {
+  position: relative;
+}
+.phone {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+}
+.phone + .phone {
+  display: none;
+}
+
+@media (min-width: 1000px){
+  .phone {
+    max-height: 615px;
+    top: -160px;
+    left: 110px;
+    max-width: 100%;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1000px){
+  .phone + .phone {
+    display: block;
+    max-height: 570px;
+    top: -67rem;
+    z-index: 0;
+    left: 140px;
+  }
+}
+
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+@media (min-width: 550px){
+  .values {
+    padding: 20rem 0 19rem;
+  }
+}
+
+@media (min-width: 550px){
+  .section-description {
+    margin-bottom: 1.2rem;
+    max-height: 40px;
+    max-width: 560px;
+    margin-left: 210px;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  border-bottom: 1px solid #ddd;
+}
+
+@media (min-width: 550px){
+  .get-help {
+    padding: 20rem 0;
+  }
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  color: #fff;
+}
+.categories .section-description {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 550px){
+  .section.categories {
+    padding: 20rem 0 19rem;
+  }
+}
+
+@media (min-width: 550px){
+  .section.categories .container {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (min-width: 550px){
+  .section-heading {
+    font-size: 35px;
+  }
+}
+
