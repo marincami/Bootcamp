@@ -57,15 +57,13 @@ h1 .pre {
 }
 
 h1 .pre::before {
-   content: "";
-   position: absolute;
-   height: 37px;
-   width: 31px;
-   left: 31px;
-   top: -4px;
-   border-radius: 4px 0px 0px 40px;
-   background-color: white;
-   z-index: -1;
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 31px;
+    left: 27px;
+    top: 12px;
+    border-radius: 4px 0px 0px 40px;
 }
 
 h1 .title { 
