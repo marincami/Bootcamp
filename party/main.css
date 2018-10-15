@@ -10,14 +10,16 @@
     justify-content: space-around;
     text-align: center;
     width: 50%;
-    margin-left :25%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .Tecla {    
     width: 70px;
     height: 70px;
     border: 3px solid mediumpurple;
-    margin-top: 50%;
     background-color: rgba(0, 0, 0, 0.6);
 }
 

@@ -1,0 +1,90 @@
+body {
+    position: relative;
+}
+
+.Contactos {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    border: 5px double purple;
+    vertical-align: top;
+    padding: 0 0 20px;
+    margin-left: 150px;
+    background-color: lightgray;
+}
+
+article {
+    display: inline-block;
+    margin-left: 4%;
+    /* border: 3px solid; */
+    background-color: white;
+    box-shadow: 3px 3px 10px grey;
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+    border-radius: 10%;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+h2 {
+    margin:30px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+span {
+    display: inline-block;
+}
+
+.Favoritos {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    border: 5px double purple;
+    vertical-align: top;
+    padding: 0 0 20px;
+    background-color: lightgray;
+}
+
+.Name {
+    text-transform: capitalize;
+}
+
+.far.fa-star {
+    font-size: 25px;
+}
+
+.fas.fa-star::before {
+    font-size: 25px;
+    /* border-color: black; */
+    color: yellow;
+}
+
+.Button {
+    background-color: white;
+    border-color: white;
+}
+
+.Button::before {
+    background-color: white;
+    border-color: black;
+}
+
+.ImgAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+

@@ -1,0 +1,29 @@
+h2 {
+  font-style: italic;
+  text-transform: lowercase;
+  margin-bottom: 0px;
+}
+
+.text-uppercase {
+  font-style: normal;
+  display: block;
+  text-transform: uppercase;
+}
+
+div {
+  width: 80px;
+  color: black;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.magazine-photo {
+  padding-top: 250px;
+  text-align: center;
+  background: url("http://raiscake.me/files/fashion-bg.jpg") no-repeat;
+  background-size: 500px 500px;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: 100px;
+}
