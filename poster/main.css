@@ -2,23 +2,25 @@ h2 {
   font-style: italic;
   text-transform: lowercase;
   margin-bottom: 0px;
+  font-size: 40px;
 }
 
 .text-uppercase {
   font-style: normal;
   display: block;
   text-transform: uppercase;
+  font-size: 45px;
 }
 
 div {
-  width: 80px;
+  width: 170px;
   color: black;
   border: 2px solid black;
   margin: 0 auto;
 }
 
 .magazine-photo {
-  padding-top: 250px;
+  padding-top: 165px;
   text-align: center;
   background: url("http://raiscake.me/files/fashion-bg.jpg") no-repeat;
   background-size: 500px 500px;

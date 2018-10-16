@@ -28,7 +28,7 @@ header {
     background-size: 100%;
     width: 37px;
     height: 33px;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 ol div {
@@ -38,8 +38,8 @@ ol div {
 article:first-of-type {
     background-color: #f2f2f2;
     height: 304px;
-    margin: 1% 0;
     padding: 0 116px;
+    margin: 0 100px;
 }
 
 .Imagenes {
@@ -51,9 +51,6 @@ article:first-of-type {
 
 .Cuadro {
     margin: 20px 40px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .Cuadro-img {
@@ -72,13 +69,18 @@ article:first-of-type {
 }
 
 .Cuadro-borde {
-    Width: 136px;
-    Height: 96px;
+    width: 136px;
+    height: 70px;
     border: 1px solid #CFCFCF;
-    background-color: white; 
+    background-color: white;
     text-align: center;
     position: relative;
-    top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -40px;
+    margin: auto;
 }
 
 .Cuadro-text {
@@ -87,16 +89,13 @@ article:first-of-type {
     font-size: 12px;
     font-weight: 300;
     line-height: 15px;
-    position: relative;
-    top: 20px;
 }
 
 .Cuadro-textUnderline {
     width: 60px;
     height: 2px;
-    display: flex;
+    margin-top: 5px;
     background-color: black;
-    margin: 30px 40px;
 } 
 
 .SidebarNavigation_Button {
@@ -119,13 +118,16 @@ article:first-of-type {
     margin-top: -30px;
 }
 
+.Sections {
+    display: flex;
+    padding: 50px 150px 0;
+}
+
 .Left {
     background-color: #f2f2f2;
-    margin-left: 130px;
-    margin-right: 38%;
-    margin-top: 50px;
-    Width: 815px;
-    Height: 716px;
+    margin-right: 0;
+    width: 815px;
+    height: 716px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,12 +167,10 @@ article:first-of-type {
 }
 
 .Right {
-    padding: 0 85%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: -58%;
-    margin-top: -710px;
+    padding-left: 20%;
 }
 
 .Right p:nth-of-type(1) {
@@ -286,7 +286,7 @@ footer {
     }
 
     nav {
-        width: 90%;
+        width: 100%;
     }
 
     .Panel {
@@ -317,6 +317,9 @@ footer {
 
     .Cuadro {
         margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .Cuadro:nth-of-type(2) {
@@ -334,23 +337,17 @@ footer {
     }
 
     .Cuadro-borde {
-        Width: 32%;
-        Height: 53px;
-        position: relative;
+        width: 32%;
+        height: 53px;
     }
 
     .Cuadro-text {
-        font-size: 9px;    
-        position: absolute;
-        top: 50%;
+        font-size: 9px;
         width: 70%;
-        left: 50%;
-        transform: translate(-50%, -90%);
     }
 
     .Cuadro-textUnderline {
-        width: 55px;
-        margin: 30px 18px;
+        width: 45px;
     } 
 
     .Cuadro:nth-child(2) .Cuadro-img {
@@ -361,6 +358,11 @@ footer {
     .Cuadro:nth-child(3) .Cuadro-img {
         width: 70%;
         height: auto;
+    }
+
+    .Sections {
+        display: block;
+        padding: 0;
     }
 
     .Left {
@@ -395,7 +397,7 @@ footer {
 
     .Right {
         padding: 0 50%;
-        margin-right: 0;
+        margin-right: auto;
         margin-top: 10%;
     }
 
@@ -426,14 +428,25 @@ footer {
 
     .Email {
         width: 150px;
+        font-size: 10px;
     }
 
     .Text {
         width: 150px;
+        font-size: 10px;
     }
 
     .Submit {
         width: 150px;
+        font-size: 12px;
+    }
+
+    footer {
+        height: 130px;
+    }
+
+    .Footer-Info {
+        font-size: 15px;
     }
 }
 
