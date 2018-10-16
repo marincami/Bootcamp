@@ -1,0 +1,117 @@
+
+body {
+  background-color: rgb(156, 210, 247);
+  position: relative;
+}
+
+.House {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.House-section {
+  display: inline-block;
+}
+
+.FormContainer {
+  width: 70%;
+  height: 70vh;
+  border: 1px dashed coral;
+  object-position: inherit;
+}
+
+.LoginForm {
+  display: inline-block;
+  padding: 1em;
+}
+
+.House-roof {
+  border-left: 98px solid transparent;
+  border-right: 98px solid transparent;
+  border-bottom: 98px solid brown;
+}
+
+.House-roof--garage {
+  border-bottom-width: 60px;
+  border-left-width: 60px;
+  border-right-width: 60px;
+}
+
+.House-wall {
+  background-color: whitesmoke;
+  height: 135px;
+  position: relative;
+  padding: 8px 0 1px 8px;
+}
+
+.House-wall--garage {
+  background-color: whitesmoke;
+  padding: 8px 8px 0 8px;
+}
+
+#Window {
+  background-color: lightpink;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 5em;
+  left: 16px;
+
+}
+
+#Window1 {
+  background-color: lightpink;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 18px;
+}
+
+#Window2 {
+  background-color: lightpink;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 16px;
+  
+}
+
+#Door {
+  background-color: gray;
+  width: 35px;
+  height: 55px;
+  position: absolute;
+  right: 18px;
+  top: 5.5em;
+}
+
+.curtain {
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 60px solid blanchedalmond;
+ 
+}
+
+.doorg {
+  background-color: grey;
+  height: 135px;
+}
+
+.tree {
+  display: inline-block;
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.tree1 {
+  background-color: brown;
+  width: 10px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+}

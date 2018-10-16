@@ -46,14 +46,14 @@ h1 .logo {
 }
 
 h1 .pre { 
-   font-family: 'Raleway', sans-serif; 
-   color: #190f33;
-   position: absolute;
-   text-transform: uppercase;
-   font-size: 10px;
-   left: 80px;
-   top: 55px;
-   z-index: 10;
+    font-family: 'Raleway', sans-serif;
+    color: #190f33;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 11px;
+    left: 66px;
+    top: 53px;
+    z-index: 10;
 }
 
 h1 .pre::before {
@@ -208,7 +208,7 @@ h3 {
     margin-bottom: 2px;
     background-color:#190f33;
     color: white;
-    text-align: center;
+    padding-left:4px;
 }
 
 .lower .up-left .block-text.black span:first-child {
@@ -245,7 +245,7 @@ h3 {
 .lower .up-left .block-text.black span:last-child {
     width: 42px;
     font-size: 10px;
-    height: 22px;
+    padding-top: 10px;
 }
 
 .low-left .block-text span {

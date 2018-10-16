@@ -1,8 +1,7 @@
 nav {
     display: flex;
-    width: 1200px;
+    width: 80%;
     justify-content: flex-end;
-    height: 103px;
 }
 
 header {
@@ -12,7 +11,7 @@ header {
 
 .Panel {
     height: 100px;
-    width: 500px;
+    width: 50%;
     display: flex;
     justify-content: space-evenly;
     font-size: 20px;
@@ -29,7 +28,7 @@ header {
     background-size: 100%;
     width: 37px;
     height: 33px;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 ol div {
@@ -39,8 +38,8 @@ ol div {
 article:first-of-type {
     background-color: #f2f2f2;
     height: 304px;
-    margin: 23px 0;
     padding: 0 116px;
+    margin: 0 100px;
 }
 
 .Imagenes {
@@ -52,9 +51,6 @@ article:first-of-type {
 
 .Cuadro {
     margin: 20px 40px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .Cuadro-img {
@@ -73,13 +69,18 @@ article:first-of-type {
 }
 
 .Cuadro-borde {
-    Width: 136px;
-    Height: 96px;
+    width: 136px;
+    height: 70px;
     border: 1px solid #CFCFCF;
-    background-color: white; 
+    background-color: white;
     text-align: center;
     position: relative;
-    top: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -40px;
+    margin: auto;
 }
 
 .Cuadro-text {
@@ -88,17 +89,13 @@ article:first-of-type {
     font-size: 12px;
     font-weight: 300;
     line-height: 15px;
-    background-color: white;
-    position: relative;
-    top: 20px;
 }
 
 .Cuadro-textUnderline {
     width: 60px;
     height: 2px;
-    display: flex;
+    margin-top: 5px;
     background-color: black;
-    margin: 30px 40px;
 } 
 
 .SidebarNavigation_Button {
@@ -121,13 +118,16 @@ article:first-of-type {
     margin-top: -30px;
 }
 
+.Sections {
+    display: flex;
+    padding: 50px 150px 0;
+}
+
 .Left {
     background-color: #f2f2f2;
-    margin-left: 130px;
-    margin-right: 38%;
-    margin-top: 50px;
-    Width: 815px;
-    Height: 716px;
+    margin-right: 0;
+    width: 815px;
+    height: 716px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,6 +145,7 @@ article:first-of-type {
     font-weight: 400;
     text-align: left;
 }
+
 .Left p:nth-of-type(1){
     font-family: Lato;
     font-size: 15px;
@@ -166,12 +167,10 @@ article:first-of-type {
 }
 
 .Right {
-    padding: 0 85%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: -58%;
-    margin-top: -710px;
+    padding-left: 20%;
 }
 
 .Right p:nth-of-type(1) {
@@ -278,8 +277,4 @@ footer {
     width: 245px;
     text-align: left;
 }
-
-
-
-
 
