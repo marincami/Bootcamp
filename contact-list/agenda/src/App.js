@@ -14,7 +14,6 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Navigation />
-            <Route exact path="/" component={ Home } />
             <Route exact path="/contactlist" component={ ContactListSection } />
           </div>
         </BrowserRouter>
@@ -31,14 +30,6 @@ const Navigation = (props) => {
         <li> <Link className="Link" to={`/contactlist`} >Contact List</Link> </li>
       </ul>
     </nav>
-  )
-}
-
-const Home = (props) => {
-  return (
-    <div>
-      !!!!
-    </div>
   )
 }
 
