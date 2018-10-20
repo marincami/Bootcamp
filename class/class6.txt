@@ -1,0 +1,14 @@
+es interpretado porque no necesita compilar
+
+ES (ECMAScript)
+referencia de la edicion del js
+
+engines:
+v8-chrome y opera
+spidermonkey-firefox
+
+para agregar js al html, se agrega con tag que son SCRIPTS
+se ubican entre el head y el body, recomendacion en el body por rendimiento
+
+variables: 
+    

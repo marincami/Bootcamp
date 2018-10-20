@@ -1,0 +1,17 @@
+SOLO PARA EL PADRE:
+flex
+distribucion de espacio adentro del contenedor
+display:flex (alinea auto)
+flex-direction (columnas o filas)
+----lo mismo se puede hacer con reverse
+
+justify-content (como se alinean los elementos)
+   center-end-start
+   space-between
+   space-around (espacio entre el primero y el ultimo con el contenedor)
+   space-evenly (mismo espacio al principio, entre los ekementos y al final)
+
+align-content
+mismo del justify
+
+flex-wrap

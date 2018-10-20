@@ -1,0 +1,128 @@
+document object model (DOM)
+
+Loop: recorrer n veces hasta la condicion
+
+scope: alcance que tiene una variable PREGUNTA PRUEBA TECNICA 
+lexical (variable local)
+dinamic (variable globales)
+alcance de las variables, separacion cuando son locales o globales (en el arbol)
+
+
+closures: cuando hay una funcion adentro de una funcion, la funcion de adentro recuerda los valores de la funcion de afuera
+
+funcion anonima: no tiene nombre y ahorra codigo
+
+promises: el catch es el error de una promesa, si no pasa pues no se cumple
+sincrono: sentencias que se ejecutan en orden
+LAS PROMISES SON asincrono: multiples sentencias y pasan al mismo tiempo
+
+fetch: API, una libreria que permite hacer peticiones, fetch usa promesas 
+
+.json (un objeto)
+
+
+
+USAR TRANSITION EN LA FIESTa
+
+function a() {}
+var a = () => {}; // la unica diferencia es el uso del this
+var a = function() {};
+var a = function a() {};
+var c = () => {
+  console.log("otra function");
+};
+var i = function a() {
+  return c;
+};
+var g = a()();
+function t() {
+  console.log(numerito); // hoisting
+}
+t();
+
+function unFunctionMas() {
+  let nombre = "sebas";
+  if (9 > 3) {
+    let nombre;
+    // nombre no existe;
+  }
+  function saludar() {
+    console.log("hila " + nombre);
+  }
+}
+
+function unFunctionMas() {
+  this.nombre = "sebas";
+  return this;
+}
+function saludar() {
+  console.log("hila " + unFunctionMas().nombre);
+}
+
+var nombre = "sebas";
+nombre = "ahora soy juan";
+const nombre = "sebas";
+nombre = "ahora soy luis";
+let nombre = "sebas";
+nombre = "jose";
+
+var nombre = "pepito";
+function a() {
+  console.log("El nombre es: " + nombre); //undefined
+  var nombre = "juanito";
+  console.log("El nombre es: " + nombre); // juanito
+  if (6 < 9) {
+    var nombre = "andres";
+    console.log("El nombre es: " + nombre); // andres
+  }
+  console.log("El nombre es: " + nombre); // andres
+}
+a();
+
+let nombre2 = "pepito";
+function a() {
+  console.log("El nombre es: " + nombre2); //undefined
+  let nombre2 = "juanito";
+  console.log("El nombre es: " + nombre2); // juanito
+  if (6 < 9) {
+    let nombre2 = "andres";
+    console.log("El nombre es: " + nombre2); // andres
+  }
+  console.log("El nombre es: " + nombre2); // juanito
+}
+a();
+
+
+var a = 10;
+
+function rr() {
+    
+}
+
+
+
+
+if() {} elseif() {} else {}
+for(let i = 0; i < 10; i++) {
+    console.log(i);
+}
+while(edad < 28){
+    // Haga cosas
+}
+var a = [1,2,3,4];
+for (let i = 0; i < a.length; i++) {
+    const element = a[i];
+    console.log(element);
+}
+a.forEach( function (e) {
+    console.log(e);
+});
+a.filter(function (e) {
+    return e > 3;
+});
+a.map(function (e) {
+    return e+1;
+});
+a.indexOf(3);
+
+

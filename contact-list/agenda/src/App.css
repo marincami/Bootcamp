@@ -1,0 +1,56 @@
+body {
+  background-color: #f3e2e4;
+}
+.App {
+  /*text-align: center;*/
+  color: #c385c3;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+.contact-card {
+  text-align: center;
+  height: 200px;
+  width: 300px;
+  display:inline-block;
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 3px #999;
+  margin:10px;
+  border-radius:  10px;
+}
+
+button {
+  margin: 0 20px;
+  height: 30px;
+  width: auto;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #c385c3;
+  color: #c385c3;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.Menu {
+  list-style: none;
+  display:flex;
+  justify-content: flex-end;
+}
+
+li {
+  padding: 1% 2%;
+}
+
+.Link {
+  text-decoration: none;
+  color: #c385c3;
+  font-size: 35px;
+}

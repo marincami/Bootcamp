@@ -1,0 +1,72 @@
+prototype : herencia
+
+objetos:
+var Persona = { //declaracion de un objeto
+    name: "Camila",
+    lastName: "Marin"
+}
+Persona.gener = 'F' //propiedades, despues de crear el objeto
+console.log(Persona)
+
+// entonces nos entrega el objeto asi:
+{
+    name: Camila
+    lastName: Marin
+    gener: "F"
+}
+
+//funcion constructora (sirve de molde)
+function Person(name, lastName, gener) {
+    // var this. = {} //nos devuelve un objeto porque se crea un vacio
+    this.name = name;
+    this.lastName = lastName;
+    this.gener = gender;
+}
+
+Person('Camila', "Marin", "F") //al ser constructora recibe el operador new
+
+//o sea que se ejecuta asi:
+
+var me = new Person("Camila", "Marin", "F")
+y si imprimimos me, vamos a tener un objeto con la forma Person
+
+//metodos: llamar la funcion, invocar a prototype y el metodo
+Person.prototype.introduce = function(){
+    console.log(`Hi I'm ${this.name} ${this.lastName}`);
+}
+//llamo a me con introduce, se ejecuta:
+me.introduce(); //nos responde "hi i'm camila marin"
+
+//funcion constructora que reciba parametrosç
+function Developer(name, lastName, gender, yearsOfExperience){
+    Person.call(this, name, lastName, gender);
+    this.yearsOfExperience = yearsOfExperience;
+} 
+
+//se ejecuta  de una manera constructora:
+//var me2 = Developer("Pepito", "Perez, "M", 2)
+//me2.introduce() ERROR: porque no estamos heredando presentacion para Pepito
+
+//entonces se hace asi:
+Depeloper.prototype = Object.create(Person); (cree un objeto basado en persona)
+//se crea otra variable para que se pueda presentar
+var me3 = new Depeloper
+
+
+
+//////////////////////////////////////////////////////
+React, es una libreria
+no es un framework porque no tiene MVC
+react solo pinta la vista.
+es una libreria que hace interfaces de usuario
+no usa templates, solo js, html y css
+vanilla javascript: js puro
+componente: pieza de codigo, (compuesta de html, css y js)
+JSX: Javascript + XML , con la diferencia que se muestra el html y la data del servidor
+-cpmbina usos del template con js
+-traduce el js plano
+librerias fundamentales: React.Component y ReactDOM
+virtualDOM: (Arbolito) , crea en memoria un DOM virtual , hace una copia, SOLO REFRESCA EL CAMBIO QUE SE HIZO!!
+REACT: 
+state : objeto
+props : abreviacion de una propiedad (atributos, propiedad, caracteristica)
