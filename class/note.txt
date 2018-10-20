@@ -1,0 +1,34 @@
+interfaz--> interaccion de componentes (grupos de elementos)
+
+html (semantic)
+css (format)
+
+interpretacion del browser:
+flujo de lectura de datos
+1. html
+2. parsing
+3. dominio (creacion del arbol)
+4. renderiza el arbol          ////renderizar
+5. cssom (interpretacion por el browser para css)
+
+arbol de tags DOM
+arbol de propiedades CSSOM
+
+selectores:
+.class (por clase)
+#ID (por identificador)
+div (por tag)
+:hover (por )        ////seudo selectors, hover of elements(cambios de apariencia en la interfaz)
+:first-child
+
+Asi se usa para CSS:
+selector{
+ css property: value;
+}
+
+Especificity:
+inline style:1000
+id: 100
+class, attribute, pseudo-class: 10
+ TAG--> element, pseudo-element: 1
+(!important:10000)

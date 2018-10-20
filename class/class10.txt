@@ -1,0 +1,23 @@
+//qie es jsx
+//staless, comp no maneja estados
+//staful, comp si maneja estados
+mutabilidad: primitivos cambian, los otros no
+inmutabilidad: un dato no lo puedes manipular muchas veces
+async
+await
+
+highOrderFunction: no muta ni cambia un array, da uno nuevo
+FILTER:
+MAP:
+REDUCE:
+
+let edad = [18, 20, 4, 7, 30]
+
+estados
+hijos
+padres
+eventos
+
+div = <View></View>
+span, p = <Text></Text>
+

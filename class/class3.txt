@@ -1,0 +1,47 @@
+que tipos de doctype hay
+cuales son las diferencias
+html5: contine todo
+xhtml estricto, exige el orden para el codigo
+html tiene referencia a un documento donde se definen todas las reglas
+
+ATRIBUTOS DE ACCESIBILIDAD
+area-label :descripcion del elemento
+area-labelledby :cual es el elemento que referencia
+role :permite modificar la semantica del elemento en cualquier concepto
+alt :
+title :
+
+HTML SEMANTICO
+
+lenguaje de marcado (Markup)
+
+estructura basica:
+<div>
+<div>
+<div>
+
+semantica markup:
+<header>
+<article>
+<figure>
+<footer>
+
+nav
+<article>(espacio donde van otros articulos o etiquetas, contenido especifico)
+<section>(contexto a nuestro documento) : NO HEREDA
+-----flipboard
+-----search engines
+----- other websites
+<header> (seccion cabecera)
+<footer> (muestra informacion de contacto y cosas por el estilo y deja incluir todo tipo de tags)
+<aside> (cualquier tipo de contenido, al lado de la pagina)
+
+
+ACCESIBILIDAD:
+
+estructura de un documento html:
+doctype
+html
+head (funciones: agregar los meta, linkea los css y los titulos)
+body (se hace el marcado del documento)
+-------------el atributo role me ayuda a cambiar el sentido semantico (cambia el significado de un elemento)

@@ -1,0 +1,51 @@
+Layout CSS:
+www.caniuse.com
+
+Diagramacion (tecnicas de layout)
+
+BOX MODEL:
+padding: distancia entre el border y el content
+margin: exterior
+border: lo que esta afuera del padding
+
+margin:border:padding:content
+
+box-sizing:
+padding-box: contiene el padding y el content
+border-box: incluye padding, margin, content
+content-box:
+...
+
+display:
+inline: en linea con el texto
+block: bloques que ocupan espacio en forma de caja
+inline-block: un elemento que va a estar en linea pero a la vez va a ser un bloque
+con none quitas espacio del documento
+....
+
+con span lo meto dentro
+
+float:
+left
+right
+none(default)
+
+clear:   /////////////////////////preguntar!!!
+left
+right
+both
+none(default)
+
+position:
+static: por defecto, ignora las direcciones
+relative: relativo al documento, al elemento donde esta ...por dentro de posicion absoluta
+absolut: (se activan las 4 direcciones), para acomodar donde quiera sin importar el hombre
+fixed: para qu siempre este en la pantalla
+
+background:
+clip:
+  border-box
+  padding-box
+  content-box
+
+font:
