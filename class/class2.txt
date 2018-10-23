@@ -12,7 +12,7 @@ margin:border:padding:content
 
 box-sizing:
 padding-box: contiene el padding y el content
-border-box: incluye padding, margin, content
+border-box: incluye padding, content
 content-box:
 ...
 
